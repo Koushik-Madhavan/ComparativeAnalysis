@@ -1,2 +1,34 @@
 # Auto detect text files and perform LF normalization
+# Ensure text files are normalized to LF line endings
 * text=auto
+
+# Mark Python files as text for proper syntax highlighting
+*.py text
+
+# Treat Jupyter notebooks as text (useful for diffs)
+*.ipynb text
+
+# Track data files (CSV, Excel, etc.) as text
+*.csv text
+*.tsv text
+*.xlsx text
+
+# Exclude large model files from diffs, treating them as binary
+*.h5 binary
+*.pkl binary
+*.joblib binary
+
+# Ignore Python bytecode files
+*.pyc binary
+
+# Ignore backup and temporary editor files
+*.swp binary
+*~ binary
+*.bak binary
+
+# Treat markdown files as text for project documentation
+*.md text
+
+# Ignore log files
+*.log binary
+
