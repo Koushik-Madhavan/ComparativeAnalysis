@@ -74,18 +74,19 @@ python diabetes_prediction.py
 
 Results and Insights
 
-Different models are tested to find the most accurate predictor.
+1.Multiple models are tested to determine which provides the highest accuracy.
 
-Accuracy and other evaluation metrics are used for comparison.
+2.Key insights are drawn from evaluating model performance.
 
-The best-performing model can be further refined for real-world applications.
+3.The most effective model can be further optimized for practical applications.
 
-Future Scope
+Future Enhancements
 
-Integrating deep learning models for better performance
+1.Integrating deep learning models for improved accuracy.
 
-Deploying the model as a web or mobile application
+2.Deploying the model as a web or mobile application.
 
-Enhancing dataset features for improved accuracy
+3.Expanding dataset features for better predictive performance.
+
 
 
